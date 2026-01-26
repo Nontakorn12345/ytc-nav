@@ -59,7 +59,7 @@ export const BUILDINGS: Building[] = [
     id: 'b7',
     name: 'ตึกแผนกวิชาภาษาต่างประเทศ',
     description: 'ศูนย์การเรียนรู้ภาษาอังกฤษและภาษาจีน (Sound Lab) เพื่อการสื่อสารในงานอาชีพ',
-    image: '/images/b7.jpg',
+    image: '/images/b7.png',
     rooms: ['ห้อง Sound Lab 1', 'ห้อง Self-Access', 'ห้องเรียนภาษาจีน', 'ห้องประชุมภาษา'],
     department: 'สามัญ (ภาษา)',
     floors: 2
