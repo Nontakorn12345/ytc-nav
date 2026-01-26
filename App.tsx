@@ -1,3 +1,4 @@
+
 import React, { useState, useMemo } from 'react';
 import { BUILDINGS } from './constants';
 import { NavState } from './types';
@@ -177,7 +178,7 @@ const App: React.FC = () => {
               >
                 <i className="fas fa-circle-info text-blue-600"></i>
                 ดูข้อมูลอาคารปลายทาง
-              </button>
+              </p>
               
               <button 
                 onClick={reset} 
