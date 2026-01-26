@@ -47,7 +47,7 @@ export const BUILDINGS: Building[] = [
     floors: 3
   },
   {
-    id: 'b6',
+    id: 'อิเล็ก.png',
     name: 'ตึกแผนกวิชาช่างอิเล็กทรอนิกส์',
     description: 'ศูนย์เทคโนโลยีอิเล็กทรอนิกส์ งานซ่อมบำรุงอุปกรณ์ไฟฟ้า แผงวงจร และระบบสื่อสารโทรคมนาคม',
     image: '/images/b6.jpg',
@@ -56,7 +56,7 @@ export const BUILDINGS: Building[] = [
     floors: 3
   },
   {
-    id: 'b7',
+    id: 'ต่างประเทศ.png',
     name: 'ตึกแผนกวิชาภาษาต่างประเทศ',
     description: 'ศูนย์การเรียนรู้ภาษาอังกฤษและภาษาจีน (Sound Lab) เพื่อการสื่อสารในงานอาชีพ',
     image: '/images/b7.jpg',
@@ -92,7 +92,7 @@ export const BUILDINGS: Building[] = [
     floors: 3
   },
   {
-    id: 'b11',
+    id: 'คธ.png',
     name: 'ตึกแผนกคอมพิวเตอร์ธุรกิจ',
     description: 'อาคารเรียนด้านระบบสารสนเทศ การจัดการธุรกิจดิจิทัล และพาณิชย์อิเล็กทรอนิกส์',
     image: '/images/b11.jpg',
