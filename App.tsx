@@ -98,8 +98,7 @@ const App: React.FC = () => {
               />
             </div>
 
-            {/* เพิ่ม pb-52 เพื่อให้รายการสุดท้ายไม่โดนปุ่มยืนยันบัง */}
-            <div className="grid grid-cols-1 gap-4 pb-52">
+            <div className="grid grid-cols-1 gap-4 pb-48">
               {filteredBuildings.length > 0 ? (
                 filteredBuildings.map(loc => (
                   <button 
