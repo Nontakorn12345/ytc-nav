@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Building } from '../types';
 
 interface BuildingModalProps {
@@ -7,20 +7,26 @@ interface BuildingModalProps {
 }
 
 const BuildingModal: React.FC<BuildingModalProps> = ({ building, onClose }) => {
+  const [imageError, setImageError] = useState(false);
+
+  // รูปสำรองกรณีหารูปในเครื่องไม่เจอ (ใช้รูปจาก Unsplash ที่ดูเป็นอาคารเรียน)
+  const fallbackImage = `https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=800&auto=format&fit=crop`;
+
   return (
     <div className="fixed inset-0 z-50 flex items-end md:items-center justify-center bg-slate-900/70 backdrop-blur-md p-0 md:p-6" onClick={onClose}>
       <div 
         className="bg-white rounded-t-[2.5rem] md:rounded-[3rem] w-full max-w-2xl overflow-hidden shadow-2xl animate-in slide-in-from-bottom md:zoom-in duration-300 flex flex-col max-h-[90vh] md:max-h-[85vh]"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header Image Area - Horizontal at Top */}
-        <div className="relative h-52 md:h-72 w-full shrink-0">
+        {/* Header Image Area */}
+        <div className="relative h-52 md:h-72 w-full shrink-0 bg-slate-200">
           <img 
-            src={building.image} 
+            src={imageError ? fallbackImage : building.image} 
             alt={building.name} 
-            className="w-full h-full object-cover" 
+            className="w-full h-full object-cover transition-opacity duration-500"
+            onError={() => setImageError(true)}
           />
-          {/* Gradient Overlay for better text readability */}
+          {/* Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent"></div>
           
           {/* Content Over Image */}
@@ -62,6 +68,7 @@ const BuildingModal: React.FC<BuildingModalProps> = ({ building, onClose }) => {
             <section>
               <p className="text-slate-600 text-base md:text-lg leading-relaxed">
                 {building.description}
+                {imageError && <span className="block mt-2 text-[10px] text-amber-500 font-medium">* ไม่พบรูปภาพในโฟลเดอร์ /images/ กำลังแสดงรูปตัวอย่าง</span>}
               </p>
             </section>
             
