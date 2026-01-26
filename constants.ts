@@ -47,7 +47,7 @@ export const BUILDINGS: Building[] = [
     floors: 3
   },
   {
-    id: 'อิเล็ก.png',
+    id: 'b6',
     name: 'ตึกแผนกวิชาช่างอิเล็กทรอนิกส์',
     description: 'ศูนย์เทคโนโลยีอิเล็กทรอนิกส์ งานซ่อมบำรุงอุปกรณ์ไฟฟ้า แผงวงจร และระบบสื่อสารโทรคมนาคม',
     image: '/images/b6.jpg',
@@ -56,7 +56,7 @@ export const BUILDINGS: Building[] = [
     floors: 3
   },
   {
-    id: 'ต่างประเทศ.png',
+    id: 'b7',
     name: 'ตึกแผนกวิชาภาษาต่างประเทศ',
     description: 'ศูนย์การเรียนรู้ภาษาอังกฤษและภาษาจีน (Sound Lab) เพื่อการสื่อสารในงานอาชีพ',
     image: '/images/b7.jpg',
@@ -92,7 +92,7 @@ export const BUILDINGS: Building[] = [
     floors: 3
   },
   {
-    id: 'คธ.png',
+    id: 'b11',
     name: 'ตึกแผนกคอมพิวเตอร์ธุรกิจ',
     description: 'อาคารเรียนด้านระบบสารสนเทศ การจัดการธุรกิจดิจิทัล และพาณิชย์อิเล็กทรอนิกส์',
     image: '/images/b11.jpg',
@@ -140,4 +140,5 @@ export const BUILDINGS: Building[] = [
 
 export const LOCATIONS = BUILDINGS.map(b => ({ label: b.name, value: b.id }));
 
-export const MAP_IMAGE_URL = 'https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1200&h=800&fit=crop';
+// เปลี่ยนเป็นชื่อไฟล์ในโฟลเดอร์ public/images/
+export const MAP_IMAGE_URL = '/images/campus-map.jpg';
