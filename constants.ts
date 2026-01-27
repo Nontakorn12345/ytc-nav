@@ -50,7 +50,7 @@ export const BUILDINGS: Building[] = [
     id: 'b6',
     name: 'ตึกแผนกวิชาช่างอิเล็กทรอนิกส์',
     description: 'ศูนย์เทคโนโลยีอิเล็กทรอนิกส์ งานซ่อมบำรุงอุปกรณ์ไฟฟ้า แผงวงจร และระบบสื่อสารโทรคมนาคม',
-    image: '/public/images/อิเล็ก.png.jifif',
+    image: '/public/images/b6.jpg',
     rooms: ['ห้องปฏิบัติการดิจิทัล', 'ห้องซ่อมทีวี', 'ห้องวิทยุสื่อสาร', 'ห้องเรียนอิเล็กฯ 1'],
     department: 'ช่างอิเล็กทรอนิกส์',
     floors: 3
@@ -59,7 +59,7 @@ export const BUILDINGS: Building[] = [
     id: 'b7',
     name: 'ตึกแผนกวิชาภาษาต่างประเทศ',
     description: 'ศูนย์การเรียนรู้ภาษาอังกฤษและภาษาจีน (Sound Lab) เพื่อการสื่อสารในงานอาชีพ',
-    image: '/public/images/b7.png',
+    image: '/public/images/b7.jpg',
     rooms: ['ห้อง Sound Lab 1', 'ห้อง Self-Access', 'ห้องเรียนภาษาจีน', 'ห้องประชุมภาษา'],
     department: 'สามัญ (ภาษา)',
     floors: 2
@@ -95,7 +95,7 @@ export const BUILDINGS: Building[] = [
     id: 'b11',
     name: 'ตึกแผนกคอมพิวเตอร์ธุรกิจ',
     description: 'อาคารเรียนด้านระบบสารสนเทศ การจัดการธุรกิจดิจิทัล และพาณิชย์อิเล็กทรอนิกส์',
-    image: '/public/images/คธ.png.png',
+    image: '/public/images/b11.jpg',
     rooms: ['ห้อง911','ห้อง921','ห้อง922','ห้อง923','ห้อง924','ห้อง931','ห้อง932','ห้อง933','ห้อง934','ห้อง941','ห้อง942','ห้อง943','ห้อง944',],
     department: 'เทคโนโลยีธุรกิจดิจิทัล',
     floors: 4
