@@ -5,7 +5,7 @@ export const BUILDINGS: Building[] = [
     id: 'b1',
     name: 'ตึกแผนกวิชาการช่างกลโรงงาน',
     description: 'ศูนย์ปฏิบัติการเครื่องมือกลหนัก โรงงานฝึกทักษะงานกลึง งานกัด และงานผลิตชิ้นส่วนอุตสาหกรรม',
-    image: '/images/b1.jpg',
+    image: '/public/images/b1.jpg',
     rooms: ['โรงฝึกงานกลึง', 'ห้องเรียนทฤษฎีกล 1', 'ห้อง CNC', 'ห้องพัสดุช่างกล'],
     department: 'ช่างกลโรงงาน',
     floors: 2
@@ -14,7 +14,7 @@ export const BUILDINGS: Building[] = [
     id: 'b2',
     name: 'ตึกแผนกวิชาเทคนิคขั้นพื้นฐาน',
     description: 'อาคารเรียนวิชาพื้นฐานสำหรับนักศึกษาใหม่ ฝึกทักษะงานช่างเบื้องต้น งานตะไบ และงานเขียนแบบ',
-    image: '/images/b2.jpg',
+    image: '/public/images/b2.jpg',
     rooms: ['ห้องเขียนแบบ 1', 'โรงงานพื้นฐาน 1', 'ห้องเรียนทฤษฎีพื้นฐาน', 'ห้องพักครู'],
     department: 'เทคนิคพื้นฐาน',
     floors: 3
@@ -23,7 +23,7 @@ export const BUILDINGS: Building[] = [
     id: 'b3',
     name: 'ตึกแผนกช่างเชื่อมโลหะ',
     description: 'โรงปฏิบัติงานเชื่อมไฟฟ้า เชื่อมแก๊ส และงานตรวจสอบคุณภาพแนวเชื่อมด้วยเทคโนโลยีที่ทันสมัย',
-    image: '/images/b3.jpg',
+    image: '/public/images/b3.jpg',
     rooms: ['บูธเชื่อมไฟฟ้า', 'ห้องทดสอบรอยเชื่อม', 'ห้องเรียนทฤษฎีเชื่อม', 'โรงเก็บถังแก๊ส'],
     department: 'ช่างเชื่อมโลหะ',
     floors: 1
@@ -32,7 +32,7 @@ export const BUILDINGS: Building[] = [
     id: 'b4',
     name: 'ตึกแผนกวิชาช่างก่อสร้างโยธา',
     description: 'อาคารปฏิบัติงานก่อสร้าง ทดสอบวัสดุโยธา และงานสำรวจเพื่อการออกแบบสิ่งก่อสร้าง',
-    image: '/images/b4.jpg',
+    image: '/public/images/b4.jpg',
     rooms: ['ห้องปฏิบัติการคอนกรีต', 'ห้องเก็บกล้องสำรวจ', 'ห้องเรียนโยธา 1', 'โรงฝึกงานไม้'],
     department: 'ช่างก่อสร้างโยธา',
     floors: 2
@@ -59,7 +59,7 @@ export const BUILDINGS: Building[] = [
     id: 'b7',
     name: 'ตึกแผนกวิชาภาษาต่างประเทศ',
     description: 'ศูนย์การเรียนรู้ภาษาอังกฤษและภาษาจีน (Sound Lab) เพื่อการสื่อสารในงานอาชีพ',
-    image: '/images/b7.png',
+    image: '/public/images/b7.png',
     rooms: ['ห้อง Sound Lab 1', 'ห้อง Self-Access', 'ห้องเรียนภาษาจีน', 'ห้องประชุมภาษา'],
     department: 'สามัญ (ภาษา)',
     floors: 2
@@ -68,7 +68,7 @@ export const BUILDINGS: Building[] = [
     id: 'b8',
     name: 'ตึกแผนกวิชาช่างยนต์',
     description: 'โรงปฏิบัติงานเครื่องยนต์ดีเซลและเบนซิน ระบบส่งกำลัง และงานบำรุงรักษายานยนต์',
-    image: '/images/b8.jpg',
+    image: '/public/images/b8.jpg',
     rooms: ['ห้องทดสอบเครื่องยนต์', 'โรงซ่อมช่วงล่าง', 'ห้องเรียนทฤษฎี 402'],
     department: 'ช่างยนต์',
     floors: 2
@@ -77,7 +77,7 @@ export const BUILDINGS: Building[] = [
     id: 'b9',
     name: 'ตึกแผนกวิชาสามัญ',
     description: 'อาคารเรียนวิชาวิทยาศาสตร์ คณิตศาสตร์ และสังคมศึกษา สำหรับทุกแผนกวิชา',
-    image: '/images/b9.jpg',
+    image: '/public/images/b9.jpg',
     rooms: ['ห้องปฏิบัติการวิทย์ 1', 'ห้องคณิตศาสตร์', 'ห้องพักครูหมวดสามัญ'],
     department: 'สามัญ',
     floors: 4
@@ -86,7 +86,7 @@ export const BUILDINGS: Building[] = [
     id: 'b10',
     name: 'ตึกแผนกวิชาช่างไฟฟ้ากำลัง',
     description: 'อาคารปฏิบัติงานติดตั้งไฟฟ้าในอาคารและนอกอาคาร งานพันมอเตอร์ และระบบควบคุมอัตโนมัติ',
-    image: '/images/b10.jpg',
+    image: '/public/images/b10.jpg',
     rooms: ['ห้อง PLC', 'โรงงานติดตั้งไฟฟ้า', 'ห้องปฏิบัติการหม้อแปลง'],
     department: 'ช่างไฟฟ้ากำลัง',
     floors: 3
@@ -95,7 +95,7 @@ export const BUILDINGS: Building[] = [
     id: 'b11',
     name: 'ตึกแผนกคอมพิวเตอร์ธุรกิจ',
     description: 'อาคารเรียนด้านระบบสารสนเทศ การจัดการธุรกิจดิจิทัล และพาณิชย์อิเล็กทรอนิกส์',
-    image: '/images/b11.jpg',
+    image: '/public/images/b11.jpg',
     rooms: ['ห้อง Com Biz 1', 'ห้องกราฟิกธุรกิจ', 'ห้อง Network เบื้องต้น'],
     department: 'บริหารธุรกิจ',
     floors: 3
@@ -104,7 +104,7 @@ export const BUILDINGS: Building[] = [
     id: 'b12',
     name: 'ตึกแผนกวิชาอาหารและโภชนาการ',
     description: 'โรงปฏิบัติการประกอบอาหารยุโรป อาหารไทย และงานเบเกอรี่ระดับมาตรฐานสากล',
-    image: '/images/b12.jpg',
+    image: '/public/images/b12.jpg',
     rooms: ['ห้องครัวเบเกอรี่', 'ห้องปฏิบัติการอาหารร้อน', 'ห้องคหกรรม 101'],
     department: 'คหกรรม',
     floors: 2
@@ -113,7 +113,7 @@ export const BUILDINGS: Building[] = [
     id: 'b13',
     name: 'ตึกแผนกวิชาเทคโนโลยีคอมพิวเตอร์',
     description: 'อาคารเรียนด้านฮาร์ดแวร์คอมพิวเตอร์ การประกอบเครื่อง และการเขียนโปรแกรมควบคุมอุปกรณ์',
-    image: '/images/b13.jpg',
+    image: '/public/images/b13.jpg',
     rooms: ['ห้อง Hardware Lab', 'ห้องปฏิบัติการ IoT', 'ห้องซ่อมคอมพิวเตอร์'],
     department: 'เทคโนโลยีคอมพิวเตอร์',
     floors: 3
@@ -122,7 +122,7 @@ export const BUILDINGS: Building[] = [
     id: 'b14',
     name: 'ตึกแผนกวิชาการเลขานุการ',
     description: 'อาคารฝึกทักษะงานสารบรรณ งานจัดการสำนักงาน และการพิมพ์ดีดด้วยระบบคอมพิวเตอร์',
-    image: '/images/b14.jpg',
+    image: '/public/images/b14.jpg',
     rooms: ['ห้องจำลองสำนักงาน', 'ห้องพิมพ์ดีดดิจิทัล', 'ห้องวิชาเลขานุการ'],
     department: 'บริหารธุรกิจ',
     floors: 2
@@ -131,7 +131,7 @@ export const BUILDINGS: Building[] = [
     id: 'b15',
     name: 'ตึกแผนกวิชาการบัญชี',
     description: 'ศูนย์การเรียนรู้ระบบบัญชีคอมพิวเตอร์ ภาษีอากร และการจัดการทางการเงินสำหรับธุรกิจ',
-    image: '/images/b15.jpg',
+    image: '/public/images/b15.jpg',
     rooms: ['ห้องบัญชีคอมพิวเตอร์', 'ห้องปฏิบัติการภาษี', 'ห้องสัมมนาบัญชี'],
     department: 'บริหารธุรกิจ',
     floors: 3
